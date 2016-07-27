@@ -2,6 +2,9 @@
 
 ![Annotation Processing](https://s31.postimg.org/rz06r66yj/annotation_processing.png)
 
+Enable the annotation processing setting in IntelliJ IDEA.  
+This option is required in combination with [Project Lombok](https://projectlombok.org/)
+
 ## Installation
 
 ```groovy
