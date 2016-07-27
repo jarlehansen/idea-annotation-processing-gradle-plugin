@@ -14,7 +14,7 @@ Tested with IntelliJ IDEA version 2016.2
 ```groovy
 buildscript {
   dependencies {
-    classpath('com.github.idea.angit ininotation.processing:idea-annotation-processing-gradle-plugin:0.0.1-SNAPSHOT')
+    classpath('com.github.idea.annotation.processing:idea-annotation-processing-gradle-plugin:0.0.1-SNAPSHOT')
   }
 }
 
