@@ -3,6 +3,8 @@
 Enable the annotation processing setting in IntelliJ IDEA.  
 This option is required in combination with [Project Lombok](https://projectlombok.org/)
 
+Tested with IntelliJ IDEA version 2016.2
+
 ![Annotation Processing](https://s31.postimg.org/rz06r66yj/annotation_processing.png)
 
 ## Installation
