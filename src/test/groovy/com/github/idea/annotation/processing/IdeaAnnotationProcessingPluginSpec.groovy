@@ -1,4 +1,4 @@
-package com.github.jarlehansen.idea.lombok
+package com.github.idea.annotation.processing
 
 import org.gradle.api.Project
 import org.gradle.testfixtures.ProjectBuilder
