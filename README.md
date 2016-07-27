@@ -1,7 +1,7 @@
 # IDEA Annotation Processing Gradle Plugin
 
 Enable the annotation processing setting in IntelliJ IDEA.  
-This option is required in combination with [Project Lombok](https://projectlombok.org/)
+This option is required in combination with [Project Lombok](https://projectlombok.org/).
 
 Tested with IntelliJ IDEA version 2016.2
 
@@ -13,9 +13,16 @@ Tested with IntelliJ IDEA version 2016.2
 
 ```groovy
 buildscript {
-  dependencies {
-    classpath('com.github.idea.annotation.processing:idea-annotation-processing-gradle-plugin:0.0.1-SNAPSHOT')
-  }
+	repositories {
+		repositories {
+			maven {
+				url  "http://dl.bintray.com/jarlehansen/maven"
+			}
+		}
+	}
+	dependencies {
+		classpath('com.github.idea.annotation.processing:idea-annotation-processing-gradle-plugin:0.0.1')
+	}
 }
 
 apply plugin: 'com.github.idea.annotation.processing'
@@ -25,4 +32,10 @@ apply plugin: 'com.github.idea.annotation.processing'
 
 ```
 ./gradlew enableAnnotationProcessing
+```
+
+or
+
+```
+./gradlew eAP
 ```

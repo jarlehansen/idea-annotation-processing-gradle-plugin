@@ -1,5 +1,5 @@
 group 'com.github.idea.annotation.processing'
-version '0.0.1-SNAPSHOT'
+version '0.0.1'
 
 task wrapper(type: Wrapper) {
   gradleVersion = '2.13'
