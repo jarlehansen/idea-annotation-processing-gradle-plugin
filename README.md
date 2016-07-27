@@ -5,6 +5,8 @@ This option is required in combination with [Project Lombok](https://projectlomb
 
 Tested with IntelliJ IDEA version 2016.2
 
+----
+
 ![Annotation Processing](https://s31.postimg.org/rz06r66yj/annotation_processing.png)
 
 ## Installation
