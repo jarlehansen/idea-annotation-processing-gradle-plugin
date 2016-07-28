@@ -21,7 +21,7 @@ buildscript {
 		}
 	}
 	dependencies {
-		classpath('com.github.idea.annotation.processing:idea-annotation-processing-gradle-plugin:0.0.1')
+		classpath('com.github.idea.annotation.processing:idea-annotation-processing-gradle-plugin:0.0.2')
 	}
 }
 
