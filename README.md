@@ -14,12 +14,10 @@ Tested with IntelliJ IDEA version 2016.2
 ```groovy
 buildscript {
 	repositories {
-		repositories {
-			maven {
-				url  "http://dl.bintray.com/jarlehansen/maven"
-			}
-		}
-	}
+        maven {
+            url  "http://dl.bintray.com/jarlehansen/maven"
+        }
+    }
 	dependencies {
 		classpath('com.github.idea.annotation.processing:idea-annotation-processing-gradle-plugin:0.0.2')
 	}
