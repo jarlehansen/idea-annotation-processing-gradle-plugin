@@ -1,5 +1,9 @@
+plugins {
+    id "com.jfrog.bintray" version "1.7"
+}
+
 group 'com.github.idea.annotation.processing'
-version '0.0.3-SNAPSHOT'
+version '0.0.4-SNAPSHOT'
 
 task wrapper(type: Wrapper) {
   gradleVersion = '2.13'
@@ -23,5 +27,21 @@ dependencies {
 
     testCompile('org.spockframework:spock-core:1.0-groovy-2.4') {
         exclude module: 'groovy-all'
+    }
+}
+
+bintray {
+    user = project.bintrayUser
+    key = project.bintrayKey
+    configurations = ['archives']
+    pkg {
+        repo = 'maven'
+        name = 'idea-annotation-processing-gradle-plugin'
+        licenses = ['Apache-2.0']
+        vcsUrl = 'https://github.com/jarlehansen/idea-annotation-processing-gradle-plugin'
+
+        version {
+            name = project.version
+        }
     }
 }
