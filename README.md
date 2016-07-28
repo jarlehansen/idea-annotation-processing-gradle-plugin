@@ -37,3 +37,11 @@ or
 ```
 ./gradlew eAP
 ```
+
+## Development
+
+Upload new version to bintray
+
+```groovy
+./gradlew bintrayUpload -PbintrayUser= -PbintrayKey=
+```
