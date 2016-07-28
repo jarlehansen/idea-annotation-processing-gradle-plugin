@@ -15,5 +15,6 @@ class IdeaAnnotationProcessingPluginSpec extends Specification {
 
         then:
         project.tasks.size() == 1
+        project.tasks.findByName('enableAnnotationProcessing')
     }
 }
