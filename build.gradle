@@ -6,7 +6,7 @@ group 'com.github.idea.annotation.processing'
 version '0.0.4-SNAPSHOT'
 
 task wrapper(type: Wrapper) {
-  gradleVersion = '2.13'
+  gradleVersion = '3.0'
   distributionUrl = "https://services.gradle.org/distributions/gradle-$gradleVersion-all.zip"
 }
 
